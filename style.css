@@ -38,13 +38,13 @@ footer {
     font-family: 'VT323', monospace;
     
 }
-
+/* utility classes */
 .center {
     margin: auto;
     text-align: center;
     vertical-align: middle;
 }
-
+/* component classes */
 .console {
     background: #031408;
     color: #008c29;
