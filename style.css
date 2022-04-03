@@ -1,0 +1,101 @@
+body {
+    background: #031408;
+    width: 100%;
+    color: #008c29;
+    font-size: 12pt;
+    font-family: 'VT323', monospace;
+}
+header {
+    background: #031408;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;    
+    margin: 20px;
+}
+
+input[type=text] {
+    background: #031408;
+    outline: none;
+    border-width: thick;
+    border-color: #008c29;
+    border-style: solid;
+    color: #008c29;
+    font-size: 20pt;
+    font-family: 'VT323', monospace;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+footer {
+    color: #008c29;
+    font-size: 12pt;
+    font-family: 'VT323', monospace;
+    
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.console {
+    background: #031408;
+    color: #008c29;
+    font-size: 12pt;
+    font-family: 'VT323', monospace;
+    width: 80%;
+    height: 100%;
+    overflow: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.button {
+    background: #031408;
+    display: inline-block;
+    outline: none;
+    border-width: thick;
+    border-color: #008c29;
+    border-style: solid;
+    color: #008c29;
+    font-size: 20pt;
+    font-family: 'VT323', monospace;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.button a {
+    text-decoration: none;
+    color: #008c29;
+}
+
+.button:hover {
+    color: #008c6f;
+    border-color: #008c6f;
+}
+
+.subheading {
+    color: #008c29;
+    font-size: 14pt;
+    font-family: 'VT323', monospace;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
