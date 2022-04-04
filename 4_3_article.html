@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">	
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
     </head>
     <header>
         <div class="center">
-            <h2>4.3 Purpose and Use of Programming Concepts</h2>
+            <h2>4.3: Purpose and Use of Programming Concepts</h2>
         </div>
     </header>
     <body>
@@ -21,17 +21,28 @@
                 There are many different concepts to programming that are essential for the programmer to understand such as identifiers, containers, functions, and objects.
             </p>
             <div class="center">
+                <hr>
                 <div>
                     <h3>Identifiers</h3>
-                    <br><br>
-                    <p>Identifiers are the names of variables, functions, and objects. They are used to refer to the objects in the program.</p>
-                    <br><br>
-                    <p>An example of an Identifier is a variable. A variable is equivalent to a variable in math. However, in the context of programming, variables are dynamic and can contain both </p>
-                    <br><br>
+                    <p>Identifiers are the names of variables, functions, and objects. They are used to identify unique parts of a program, or unique classes within it.</p>
+                    <p>An example of an Identifier is a variable. A variable is equivalent to a variable in math. However, in the context of programming, 
+                        variables are dynamic and can contain different <span class="highlight">datatypes</span>. These include:</p>
+                    <ul>
+                        <li style="display:inline-block; list-style-type: disc;" >Integers</li>
+                        <li style="display:inline-block; list-style-type: disc;" >Floats</li>
+                        <li style="display:inline-block; list-style-type: disc;" >Strings</li>
+                        <li style="display:inline-block; list-style-type: disc;" >Booleans</li>
+                        <li style="display:inline-block; list-style-type: disc;" >Arrays</li>
+                        <li style="display:inline-block; list-style-type: disc;" >Objects</li>
+                    </ul>
+
+                    <p>
+                        A constant is a variable that cannot be changed. For example, the subject of a  class is a constant, 
+                        whereas the number of students in a class can be changed.
+                    </p>
                 </div>
                 <div>
                     <h3>Containers</h3>
-                    <br><br>
                     <p>
                         Containers hold things in real life, and they do the same in computer programming. 
                         Variables, which are values that can vary based on different input or conditions within a program, were discussed earlier in this chapter. 
@@ -40,29 +51,62 @@
                         <span class="highlight">Arrays</span> and <span class="highlight">vectors</span> are the two types of containers you should be aware of.
                     </p>
                     <p>
-
+                        An array is nothing more than a collection of values. An array has a few fundamental distinguishing characteristics. 
+                        To begin, an array's items must all be of the same data type. Second, the array's size is fixed and never changes.
+                    <p>
+                        A list of values is also stored as a vector. The values do not have to be of the same data type, and vectors can be dynamically created, 
+                        which means they can decrease or increase as needed by the program. Otherwise, vectors are similar to arrays in that they store values 
+                        and allow retrieval of those values. Vectors are significantly more adaptable than arrays and are the preferred container type because 
+                        they may be dynamically scaled.
                     </p>
-                    <br><br>
                 </div>
                 <div>
                     <h3>Functions</h3>
-                    <br><br>
                     <p>
-                        Functions are the ways in which the program can perform actions. They are used to perform actions in the program.
+                        Functions are <span style="highlight">reusable</span> code parts that are frequently used by developers. 
+                        A function block can be used to execute a task when a specific collection of instructions is required. 
+                        The program refers to that function whenever that activity is required. 
+                        In general, functions are designed to accept input, transform it in some way, and provide output.
                     </p>
-                    <br><br>
                 </div>
                 <div>
                     <h3>Objects</h3>
-                    <br><br>
-                    <p>Objects are the ways in which the program can be used. They are used to use the program.</p>
-                    <br><br>
+                    <p>
+                        Objects are a special type of container. They are most common in Object Oriented Programming languages. These languages are centered around objects,
+                        and the properties, attributes, and methods in each object, which are then used to perform actions. Object Oriented Languages usually seperate code into
+                        two types: the <span class="highlight">class</span> and the <span class="highlight">object</span>. The class defines the properties and methods of the object,
+                        'the object' is the actual instance of the class.
+                    </p>
+
+                    <p>
+                        Objects contain <span class="highlight">attributes</span> and <span class="highlight">properties</span> Although the words are synonyms, 
+                        there are some distinctions. The term properties relates to an object's absolute qualities, whereas attributes refers to additional information about it that can be changed later. 
+                        People, for example, have a trait known as height. Depending on the property utilized, height can be stated in a variety of ways, such as 
+                        5ft 8in, 173 centimeters, or 1.73 meters. An attribute, for example, could be the color of their shirt. 
+                    </p>
+
+                    <p>
+                        In coding, <span style="highlight">properties</span> and characteristics are utilized in a variety of ways. 
+                        To begin with, a property can be any data type, including text, integer, or Boolean. Code can be used to change the properties of an object. 
+                        <span style="highlight">Attributes cannot be altered.</span> If you try to change an attribute's value and then ask for its value to be shown, 
+                        the software will return the default value.
+                    </p>
+
+                    <p>
+                        Consider methods to be the equivalent of functions for objects. They are methods for coordinating many tasks in order to complete an operation.
+                    </p>
+                    <hr>
+                    <p>
+                        Ready to test your knowledge? Click below to see a quiz on this topic!
+                    </p>
+                    <a class="button center" href="4_3_exam.html">4.3 Exam</a>
                 </div>
             </div>
+            <hr>
             <footer>
                 <p>Created by Kevin Hang, Aiden Bernstein, Yalin Ojeda-Rodriguez, and Justus Matteson</p>
                 <p>Licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0 License</a></p>
-                <p>Uses content under fair use for educational purposes from CompTIA IT Fundamentals Study Guide: Exam FC0-U61, 2e by Quentin Docter</p>
+                <p>Uses content obtained under fair use for educational purposes from CompTIA IT Fundamentals Study Guide: Exam FC0-U61, 2e by Quentin Docter</p>
             </footer>
         </div>
     </body>
