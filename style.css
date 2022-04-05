@@ -11,6 +11,34 @@ header {
     height: 50px;
 }
 
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #031408;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #008c29;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #008c29;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #008c29;
+}
+
 input[type=text] {
     background: #031408;
     outline: none;
@@ -55,6 +83,22 @@ footer {
 .highlight{
     color: #008c6f;
     font-weight: bold;
+}
+
+input[type=button] {
+    width: 100%;
+}
+
+form {
+    width: 25%;
+    margin: auto;
+    text-align: left;
+}
+
+#answers {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .button {

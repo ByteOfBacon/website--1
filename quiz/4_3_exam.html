@@ -23,19 +23,22 @@
             </p>
             <div class="center">
                 <div>
-                    <h3>Identifiers</h3>
+                    <hr>
+                    <h3>Question 1</h3>
                     <br><br>
-                    <p>Please select the choice that correctly describes an identifier.</p>
+                    <p>In object-oriented programming, which of the following are integral parts of objects? (Choose two.)</p>
                     <form>
-                        <input type="radio" id="variable" name="q1" value="correct">
-                            <label for="varaible">variable</label><br>
-                        <input type="radio" id="literal" name="q1" value="incorrect">
-                            <label for="varaible">literal</label><br>
-                        <input type="radio" id="code" name="q1" value="incorrect">
-                            <label for="varaible">code</label><br>
-                        <input type="radio" id="assembly" name="q1" value="incorrect">
-                            <label for="varaible">assembly</label><br>
-                        <input type="button" onclick="checkAnswer('q1')" value="Submit">
+                        <div id="answers">
+                            <input type="radio" id="a" name="q1" value="incorrect">
+                                <label for="varaible">variable</label><br>
+                            <input type="radio" id="b" name="q1" value="correct">
+                                <label for="varaible">properties</label><br>
+                            <input type="radio" id="c" name="q1" value="correct">
+                                <label for="varaible">attributes</label><br>
+                            <input type="radio" id="d" name="q1" value="incorrect">
+                                <label for="varaible">arrays</label><br>
+                        </div>
+                        <input class="button" type="button" onclick="checkAnswer('q1')" value="Submit">
                     </form>
                     <p id="q1answer"></p><br><br>
                     <!--<p>Identifiers are the names of variables, functions, and objects. They are used to refer to the objects in the program.</p>
@@ -44,71 +47,87 @@
                     <br><br>-->
                 </div>
                 <div>
-                    <h3>Containers</h3>
+                    <h3>Question 2</h3>
                     <br>
-                    <p>Please select the choice that a container CANNOT contain.</p>
+                    <p>Which of the following terms describe concepts related to breaking code into smaller, repeatable sections? (Choose two.)</p>
                     <form>
-                        <input type="radio" id="variable" name="q2" value="incorrect">
-                            <label for="varaible">variable</label><br>
-                        <input type="radio" id="literal" name="q2" value="incorrect">
-                            <label for="varaible">literal</label><br>
-                        <input type="radio" id="code" name="q2" value="incorrect">
-                            <label for="varaible">code</label><br>
-                        <input type="radio" id="mValues" name="q2" value="correct">
-                            <label for="varaible">multiple values</label><br>
-                        <input type="button" onclick="checkAnswer('q2')" value="Submit">
+                        <div id="answers">
+                            <input type="radio" id="a" name="q2" value="correct">
+                                <label for="varaible">functions</label><br>
+                            <input type="radio" id="b" name="q2" value="incorrect">
+                                <label for="varaible">variables</label><br>
+                            <input type="radio" id="c" name="q2" value="incorrect">
+                                <label for="varaible">containers</label><br>
+                            <input type="radio" id="d" name="q2" value="correct">
+                                <label for="variable">methods</label><br>
+                            <input type="radio" id="e" name="q2" value="incorrect">
+                                <label for="variable">objects</label><br>
+                        </div>
+                        <input class="button" type="button" onclick="checkAnswer('q2')" value="Submit">
                     </form>
                     <p id="q2answer"></p><br><br>
-                    <!--<p>
-                        Containers hold things in real life, and they do the same in computer programming. 
-                        Variables, which are values that can vary based on different input or conditions within a program, were discussed earlier in this chapter. 
-                        When defining a variable, developers are only permitted to specify one value for that variable. 
-                        Multiple variables of comparable types can be grouped together and retrieved at the same time using containers. 
-                        <span class="highlight">Arrays</span> and <span class="highlight">vectors</span> are the two types of containers you should be aware of.
-                    </p>-->
                 </div>
                 <div>
-                    <h3>Functions</h3>
+                    <h3>Question 3</h3>
                     <br>
-                    <p>Please select the choice that correctly describes a function.</p>
+                    <p>When inputs can easily be placed into different categories or classes, a(n) ___ -oriented analysis works well.</p>
                     <form>
-                        <input type="radio" id="variable" name="q3" value="incorrect">
-                            <label for="varaible">variable</label><br>
-                        <input type="radio" id="literal" name="q3" value="incorrect">
-                            <label for="varaible">literal</label><br>
-                        <input type="radio" id="code" name="q3" value="correct">
-                            <label for="varaible">code</label><br>
-                        <input type="radio" id="mValues" name="q3" value="incorrect">
-                            <label for="varaible">multiple values</label><br>
-                        <input type="button" onclick="checkAnswer('q3')" value="Submit">
+                        <div id="answers">
+                            <input type="radio" id="a" name="q3" value="correct">
+                                <label for="varaible">object</label><br>
+                            <input type="radio" id="b" name="q3" value="incorrect">
+                                <label for="varaible">class</label><br>
+                            <input type="radio" id="c" name="q3" value="incorrect">
+                                <label for="varaible">variable</label><br>
+                        </div>
+                        <input class="button" type="button" onclick="checkAnswer('q3')" value="Submit">
                     </form>
                     <p id="q3answer"></p><br><br>
-                    <br><br>
                     <!--<p>
                         Functions are the ways in which the program can perform actions. They are used to perform actions in the program.
                     </p>-->
                     <br><br>
                 </div>
                 <div>
-                    <h3>Objects</h3>
+                    <h3>Question 4</h3>
                     <br>
-                    <p>Please select the choice that desribes what values an object can contain.</p>
+                    <p>It has a set of attributes or properties and it has methods associated with it</p>
                     <form>
-                        <input type="radio" id="variable" name="q4" value="correct">
-                            <label for="varaible">variable</label><br>
-                        <input type="radio" id="literal" name="q4" value="correct">
-                            <label for="varaible">literal</label><br>
-                        <input type="radio" id="code" name="q4" value="correct">
-                            <label for="varaible">code</label><br>
-                        <input type="radio" id="mValues" name="q4" value="correct">
-                            <label for="varaible">multiple values</label><br>
-                        <input type="button" onclick="checkAnswer('q4')" value="Submit">
+                        <div id="answers">
+                            <input type="radio" id="a" name="q4" value="incorrect">
+                                <label for="varaible">functions</label><br>
+                            <input type="radio" id="b" name="q4" value="incorrect">
+                                <label for="varaible">arrays</label><br>
+                            <input type="radio" id="c" name="q4" value="incorrect">
+                                <label for="varaible">vector</label><br>
+                            <input type="radio" id="d" name="q4" value="correct">
+                                <label for="variable">object</label><br>
+                        </div>
+                        <input class="button" type="button" onclick="checkAnswer('q4')" value="Submit">
                     </form>
                     <p id="q4answer"></p><br><br>
-                    <br><br>
                     <!--<p>Objects are the ways in which the program can be used. They are used to use the program.</p>
                     <br><br>-->
                 </div>
+                    <div>
+                    <h3>Question 5</h3>
+                    <br>
+                    <p>Piece of code than can be easily called</p>
+                    <form>
+                        <div id="answers">
+                            <input type="radio" id="a" name="q5" value="incorrect">
+                                <label for="varaible">array</label><br>
+                            <input type="radio" id="b" name="q5" value="incorrect">
+                                <label for="varaible">object</label><br>
+                            <input type="radio" id="c" name="q5" value="incorrect">
+                                <label for="varaible">method</label><br>
+                            <input type="radio" id="d" name="q5" value="correct">
+                                <label for="variable">function</label><br>
+                        </div>
+                        <input class="button" type="button" onclick="checkAnswer('q5')" value="Submit">
+                    </form>
+                    <p id="q5answer"></p><br><br>
+                    </div>
             </div>
             <footer>
                 <p>Created by Kevin Hang, Aiden Bernstein, Yalin Ojeda-Rodriguez, and Justus Matteson</p>
